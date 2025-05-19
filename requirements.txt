@@ -1,0 +1,16 @@
+scikit-learn==1.6.1
+transformers[torch]==4.45.2
+torch==2.2.2
+dateparser==1.2.0
+networkx==3.2.1
+textstat==0.7.4
+lexicalrichness==0.5.1
+nltk==3.9.1
+pandas==2.2.3
+numpy==1.26.4
+scipy==1.13.1
+spacy==3.8.4
+NRCLex==3.0.0
+swifter
+catboost 
+lightgbm==4.6.0

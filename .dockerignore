@@ -1,0 +1,6 @@
+Dockerfile
+*.egg-info
+**/build
+**/*.pyc
+**/__pycache__
+.ipynb_checkpoints/
