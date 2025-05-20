@@ -37,9 +37,9 @@ import sys
 
 import joblib
 
-from huggingface_hub import login
+#from huggingface_hub import login
 
-login(token='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')
+#login(token='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')
 
 nltk.download('wordnet')
 nlp = spacy.load('en_core_web_sm')
@@ -217,7 +217,7 @@ if __name__ == "__main__":
     if not args.o:
         raise ValueError('Output dir path is required')
 
-    input_file = os.path.join(args.i, 'val.jsonl')
+    input_file = os.path.join(args.i, 'dataset.jsonl')
     output_file = os.path.join(args.o, 'output.jsonl')
     print("Writing answers to:", output_file , file=sys.stderr)
 
