@@ -4,3 +4,4 @@ Dockerfile
 **/*.pyc
 **/__pycache__
 .ipynb_checkpoints/
+README.md
