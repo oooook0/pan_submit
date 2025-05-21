@@ -267,6 +267,6 @@ if __name__ == "__main__":
     
     # run smoothing
     nomral_pred = c_at_1(preds)
-    df['labels'] = nomral_pred
-    df[['id', 'labels']].to_json(output_file, orient="records", lines=True, force_ascii=False)
+    df['label'] = nomral_pred
+    df[['id', 'label']].to_json(output_file, orient="records", lines=True, force_ascii=False)
     print('Job done', file=sys.stderr)
